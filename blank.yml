@@ -1,0 +1,14 @@
+name = input('What is your name?\n')
+print('Hi, %s.' % name)
+print("Let's Find What Your Destiny Is.")
+num = int(input("Pick a number between 1-10: "))
+if (num == 1 or num == 2):
+    print("You will die in three days")
+if (num == 3 or num == 4):
+    print("You will live till you're 1 hunderd years old")
+if (num == 5 or num == 6):
+    print("Call Cancer Treatment Centers of America because you have stage 3 Cancer")
+if (num == 7 or num == 8):
+    print("Someone close to you is going to die in the next week")
+if (num == 9 or num == 10):
+    print("You will get Covid 19 and die")
